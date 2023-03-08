@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-wid, initial-scale=1.0">
+    <title>Document</title>
+    <style>h4{color: cyan;text-align: center;font-size: 70px;}
+        h1,
+        h2,
+        h3 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 25px;
+        }
+
+       
+
+        @media (max-width:1500px) {
+            body {
+                background-color: white;
+            }
+        }
+
+        @media (max-width:1000px) {
+            body {
+                background-color: white;
+            }
+        }
+
+        @media (max-width:600px) {
+            body {
+                background-color: white;
+            }
+        }
+        table{border: 1px solid black;}
+        a{margin-left:25px;
+            text-decoration: none;
+            font-size: 90px;
+            border: 1px solid;
+            
+            background-color: green;
+            border-radius:20px;}
+    </style>
+</head>
+
+<body><h4>HTML FORM</h4>
+    <h1>The <b>form </b>Element</h1>
+    <p>The HTML form element is used to create an HTML form for user input<br>
+        The form element is a container for different types of input elements, such as: text fields, checkboxes, radio
+        buttons, submit buttons, etc.
+    </p>
+    <h2> The <b>input</b> Element</h2>
+    <p> HTML input element is the most used form element.<br>
+
+        An input element can be displayed in many ways, depending on the type attribute.</p>
+    <table>
+        <tr>
+            <th>type</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><input type="text"> </td>
+            <td> a single-line text input field</td>
+        </tr>
+        <tr>
+            <td><input type="radio"></td>
+            <td>Displays a radio button (for selecting one of many choices)</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td> Displays a checkbox (for selecting zero or more of many choices)</td>
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+            <td> Displays a submit button (for submitting the form)</td>
+        </tr>
+        <tr>
+            <td><input type="button"></td>
+            <td> Displays a clickable button</td>
+        </tr>
+    </table>
+    <h3>The <b>label</b> Element</h3>
+    <p> Notice the use of the <b>label</b> element in the example above.<br>
+
+        The <b>label</b> tag defines a label for many form elements.<br>
+
+        The <b>label</b> element is useful for screen-reader users, because the screen-reader will read out loud the
+        label when the user focuses on the input element.<br>
+
+        The <b>label</b> element also helps users who have difficulty clicking on very small regions (such as radio
+        buttons or checkboxes) - because when the user clicks the text within the <b>label</b> element, it toggles the
+        radio button/checkbox.</p>
+
+    <P> The for attribute of the <b>label</b> tag should be equal to the id attribute of the <b>input</b> element to
+        bind them together.<br>
+
+      <b>  Radio Buttons</b><br>
+        The type="radio" defines a radio button.<br>
+
+        Radio buttons let a user select ONE of a limited number of choices.
+
+    </P>
+    <p><b> Checkboxes</b><br>
+        The type="checkbox" defines a checkbox.<br>
+
+        Checkboxes let a user select ZERO or MORE options of a limited number of choices.</p>
+    <P>The <b>Submit </b>
+        The type="submit" defines a button for submitting the form data to a form-handler.<br>
+
+        The form-handler is typically a file on the server with a script for processing input data.<br>
+
+        The form-handler is specified in the form's action attribute.</P>
+
+
+    <img src="Capture.PNG">
+    <a href="form1.html">RUN</a>
+
+
+
+</body>
+
+</html>
